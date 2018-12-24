@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="scripts/jquery.mobile-1.4.5.min.css" />
+		<script src="scripts/jquery-1.11.1.min.js"></script>
+		<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>5566</title>
+		<script>
+				function exit(){
+			if (confirm("確定離開程式嗎？"))
+			{
+			navigator.app.exitApp();
+			}
+		}
+		</script>
+	</head>
+
+	<body>
+		<div data-role="page" id="home">
+
+		<!--選單-->
+		<div data-role="panel" id="myPanel" data-display="push"  data-dismissible="true" > 
+		<!--<div data-role="header" data-theme="top" >
+		</div>-->
+		<hr color="#efefef" width="100%" height="12px;" />
+		<p><a href="javascript:history.go(-1)">遊戲選單</a></p><hr color="#efefef" width="100%" />
+		<p><a href="stratchplay.php">Scratch</a></p><hr color="#efefef" width="100%" />
+		<p><a href="questionnaire.php">問卷調查</a></p><hr color="#efefef" width="100%" />
+		<p><a href="#" onclick="exit()" data-icon="back">退出APP</a></p><hr color="#efefef" width="100%" />
+		</div>
+		<!--end選單-->
+		<!--狀態列-->
+		<div data-role="header"><a href="#myPanel" class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext" ></a><h2>舞舞溜溜</h2><a href="javascript:history.go(0)" class="ui-btn ui-corner-all ui-icon-refresh ui-btn-icon-notext" data-icon="refresh" ></a></div>
+		<!--end狀態列-->	
+		<div role="main" class="ui-content">
+			<iframe style="margin-left:-15px" src="http://scratchx.org/?url=https://ericrosenbaum.github.io/spotify-extension/examples/musical-magician.sbx#scratch" width="1920" height="768" align="middle" scrolling="auto" frameborder="0"></iframe>
+		</div>
+
+	</body>
+</html>

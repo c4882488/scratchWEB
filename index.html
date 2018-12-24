@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="scripts/jquery.mobile-1.4.5.min.css" />
+		<script src="scripts/jquery-1.11.1.min.js"></script>
+		<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=big5" />
+		<title>跳舞Game</title>
+		<script>
+			function MM_preloadImages() { //v3.0
+			  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+				var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+				if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+			}
+			function myFunction() {
+				var str = "http://163.32.98.41/std/s5404008/app/note.php?uid=" + device.uuid;
+				document.location.href = str;
+			}
+			function exit(){
+				if (confirm("確定離開程式嗎？"))
+				{
+				navigator.app.exitApp();
+				}
+			}
+		</script>
+		<style>
+			body{
+				font-family:"微軟正黑體";
+				background:#DDF4FF;
+			}
+			.logo{
+				margin-bottom: 15px;
+				font-size: 25px;
+				color:#2860C0;
+			}
+			.text{
+				margin-bottom: 15px;
+			}
+			.logo{
+				margin-bottom: 10px;
+			}
+			table{
+				background: #fff;
+				margin-top: 20px;
+				border-radius: 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div data-role="page" id="home"  style="background:#DDF4FF">
+
+
+			<!---->
+			<div data-role="panel" id="myPanel" data-display="push"  data-dismissible="true" > 
+			<!--<div data-role="header" data-theme="top" >
+
+			</div>-->
+				<hr color="#efefef" width="100%" height="12px;" />
+				<p><a href="https://scratch.mit.edu/">Scratch</a></p><hr color="#efefef" width="100%" />
+				<p><a href="questionnaire.php">問卷調查</a></p><hr color="#efefef" width="100%" />
+				<p><a href="#info">關於我們</a></p><hr color="#efefef" width="100%" />
+				<!--<p><a href="#" onclick="exit()" data-icon="back">退出APP</a></p><hr color="#efefef" width="100%" />-->
+			</div>
+
+
+			<div data-role="header" style="background: #FF8F33;color: #fff;"><a href="#myPanel" class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext"  ></a><h2>跳舞G 遊樂場</h2></div>
+			<div role="main" class="ui-content"  style="background:#EDEDED">
+
+			<table width="85%" border="0" cellpadding="0" align="center">
+				<tr>
+				  <!--<td><a href="https://phosphorus.github.io/app.html?id=252841486&turbo=false&full-screen=true"><img src="img/5566.png" width="95%"></a></td>-->
+					<td width="50%"><img src="img/5566.png" width="95%"></td>
+					<td align="center">
+						<div class="logo">舞舞溜溜</div>
+						<div class="text">簡單說明</div>
+						<div class="play"><a href="https://phosphorus.github.io/app.html?id=272624519&turbo=false&full-screen=true" target="_blank"><img src="img/play.png" width="12%" border="0"></a><span>　<a href="https://scratch.mit.edu/projects/272624519/" target="_blank">Scratch</a></span></div>
+					</td>
+				</tr>
+			</table>
+				
+			<table width="85%" border="0" cellpadding="0" align="center">
+				<tr>
+					<td align="center">
+						<div class="logo">舞舞溜溜</div>
+						<div class="text">簡單說明</div>
+						<div class="play"><a href="https://phosphorus.github.io/app.html?id=273409154&turbo=false&full-screen=true" target="_blank"><img src="img/play.png" width="12%"></a><span>　<a href="https://scratch.mit.edu/projects/273409154/" target="_blank">Scratch</a></span></div>
+					</td>
+					<td width="50%" align="right"><img src="img/5566body.png" width="95%"></td>
+				</tr>
+			</table>
+			<table width="85%" border="0" cellpadding="0" align="center">
+				<tr>
+					<td width="50%"><img src="img/5566spotify.png" width="95%"></td>
+					<td align="center">
+						<div class="logo">舞舞溜溜</div>
+						<div class="text">簡單說明</div>
+						<div class="play"><img src="img/play.png" width="12%"><span>　<a>Scratch</a></span></div>
+					</td>
+				</tr>
+			</table>
+				
+			<table width="85%" border="0" cellpadding="0" align="center">
+				<tr>
+				  	<td align="center">
+						<div class="logo">小朋友下樓梯</div>
+						<div class="text">簡單說明</div>
+						<div class="play"><a href="https://phosphorus.github.io/app.html?id=272624111&turbo=false&full-screen=true" target="_blank"><img src="img/play.png" width="12%"></a><span>　<a href="https://scratch.mit.edu/projects/272624111/" target="_blank">Scratch</a></span></div>
+					</td>
+					<td width="50%" align="right"><img src="img/4Tdown.png" width="95%"></td>
+				</tr>
+				 <!-- <script src=https://phosphorus.github.io/embed.js?id=272624111&auto-start=true&light-content=true></script>-->
+			</table>
+
+			</div>
+
+			<div data-role="page" id="info"  style="background:#DDF4FF">
+			<div data-role="header"><h2>跳舞G</h2></div>
+			<div role="main" class="ui-content">
+			<center>
+
+			<font color="#29AEFE">這是一個介紹海青工商的APP<br />
+			由資料處理科學生所製作</font><font color="#29AEFE"><br />
+			</font>
+
+			</center>
+			</div>
+
+
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar" class="ui-body-c">
+					<ul>
+						<li><a href="javascript:history.go(-1)" data-icon="back">返回</a></li>
+
+					</ul>
+				</div>
+			</div>
+			</div>  
+
+	</body>
+</html>
